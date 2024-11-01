@@ -188,7 +188,7 @@ async function waitForBuildDownload(page: Page, browser: Browser, downloadPath: 
     if(!process.env.DOWNLOAD_PATH || !process.env.UPLOAD_FILE)
         throw Error("Failed to find DOWNLOAD_PATH or UPLOAD FILE.")
 
-    const browser = await puppeteer.launch({headless: false, args:['--no-sandbox']});
+    const browser = await puppeteer.launch({headless: true, args:['--no-sandbox']});
     const page = await browser.newPage();
     await page.setViewport({width: 1080, height: 1024});
 
