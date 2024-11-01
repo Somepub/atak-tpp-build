@@ -1,0 +1,29 @@
+{
+  "name": "atak-tpp-build",
+  "version": "1.0.0",
+  "main": "tpp-upload.ts",
+  "scripts": {
+    "build": "vite-node tpp-upload.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Somepub/atak-tpp-build.git"
+  },
+  "keywords": [
+    "atak"
+  ],
+  "author": "Somepub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Somepub/atak-tpp-build/issues"
+  },
+  "homepage": "https://github.com/Somepub/atak-tpp-build#readme",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.8.6",
+    "puppeteer": "^23.6.1",
+    "typescript": "^5.6.3",
+    "vite-node": "^2.1.4"
+  }
+}
